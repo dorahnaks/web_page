@@ -43,6 +43,46 @@
         .new{
             background-color: orange;
         }
+        .login{
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            color: white;
+            width: 300px;
+        }
+
+        .login h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .login input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login .login-btn {
+            background-color: orange;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login .signup-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .login .signup-link a {
+            color: orange;
+            text-decoration: none;
+        }
 
     
     </style>
@@ -71,6 +111,15 @@
                 They also use HTML, <br> CSS, WYSIWYG editing software, mark-up validators, etc.,<br>to create design elements.</p>
             <button class="new">JOIN US</button>
         </div>
-
+        <div class="login">
+            <h2>Login Here</h2>
+            <input type="email" placeholder="Enter Email Here">
+            <input type="password" placeholder="Enter Password Here">
+            <button class="login-btn">Login</button>
+            <div class="signup-link">
+                Don't have an account? <a href="#">Sign up here</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
