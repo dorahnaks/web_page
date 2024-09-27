@@ -17,7 +17,8 @@
             padding: 20px;
             color: white;
             font-weight: bold;
-            height: 80px;
+            height: 100px;
+            margin-left: 40px;
         }
         nav .logo {
             font-size: 30px;
@@ -42,12 +43,15 @@
         
         .part_two{
             color: white;
-            height: 20px;
+            height: 10px;
+            margin-left: 50px;
 
         }
         .new{
             background-color: orange;
             color: brown;
+            border-radius: 5px;
+            height: 30pxs;
         }
         .login{
             background-color: rgba(0, 0, 0, 0.8);
@@ -56,6 +60,9 @@
             color: white;
             width: 300px;
             align-items: end;
+            position: relative;
+            position: absolute; right: 70px;
+            height: 200px;
         }
 
         .login h2 {
@@ -93,15 +100,27 @@
         .liz{
             font-size: 40px;
             font-family: 'Times New Roman', Times, serif;
-            line-height: 0.5;
+            line-height: 0.1px;
 
         }
-        .liz a{
+        .D{
             font-size: 60px;
             font-family: 'Times New Roman', Times, serif;
+            color: orange;
         }
         .tina{
             height: 80px;
+            line-height: 1.5;
+        }
+        .line{
+            box-shadow: 0 2px 0 brown;
+            line-height: 1.5;
+        }
+        .r{
+            color: black;
+            background-color: orange;
+            border-radius: 5px;
+            
         }
 
     
@@ -125,20 +144,21 @@
     <div class="part_two">
         <div>
             <h2 class="liz ">Web Design &</h2>
-            <h1 class="liz a">Development</h1>
+            <h1 class="D">Development</h1>
             <h2 class="liz">Course</h2>
             <p class="tina">Web Design is a specialization in the design stream. 
                 They also use HTML, <br> CSS, WYSIWYG editing software, mark-up validators, etc.,<br>to create design elements.</p>
             <button class="new">JOIN US</button>
         </div>
         <div class="login">
-            <h2>Login Here</h2>
-            <input type="email" placeholder="Enter Email Here">
-            <input type="password" placeholder="Enter Password Here">
-            <button class="login_button">Login</button>
+            <button class="log_in">Login here</button>
+            <p class="line">Enter Email her</p>
+            <p class="line">Enter Password here</p>
             <div class="signup-link">
-                Don't have an account? <a href="#">Sign up here</a>
+            <button class="r">Login</button><br>
+                Don't have an account? <br><a href="#">Sign up here</a>
             </div>
+            
         </div>
     </div>
 </body>
