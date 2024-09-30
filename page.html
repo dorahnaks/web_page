@@ -50,19 +50,19 @@
         .new{
             background-color: orange;
             color: brown;
-            border-radius: 5px;
-            height: 30pxs;
+            border-radius: 8px;
+            height: 35px;
+            width: 120px;
         }
         .login{
             background-color: rgba(0, 0, 0, 0.8);
             padding: 30px;
             border-radius: 10px;
             color: white;
-            width: 300px;
-            align-items: end;
+            width: 250px;
             position: relative;
             position: absolute; right: 70px;
-            height: 200px;
+            height: 250px;
         }
 
         .login h2 {
@@ -87,8 +87,18 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .log_in{
+            color: orange;
+            background-color: white;
+            width: 220px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
 
-        .login .signup-link {
+        .signup-link {
             margin-top: 10px;
             text-align: center;
         }
@@ -113,16 +123,22 @@
             line-height: 1.5;
         }
         .line{
-            box-shadow: 0 2px 0 brown;
+            box-shadow: 0 2px 0 gray;
             line-height: 1.5;
         }
         .r{
             color: black;
             background-color: orange;
-            border-radius: 5px;
+            border-radius: 8px;
+            height: 35px;
+            width: 120px;
             
         }
-
+        .images{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
     
     </style>
 </head>
@@ -151,13 +167,20 @@
             <button class="new">JOIN US</button>
         </div>
         <div class="login">
-            <button class="log_in">Login here</button>
-            <p class="line">Enter Email her</p>
+            <button class="log_in"><h3>Login here</h3></button>
+            <p class="line">Enter Email here</p>
             <p class="line">Enter Password here</p>
             <div class="signup-link">
-            <button class="r">Login</button><br>
-                Don't have an account? <br><a href="#">Sign up here</a>
+            <button class="r">Login</button><br><br>
+                Don't have an account?<br> <br><a href="#">Sign up here</a><br><br>
             </div>
+        <div class="images">          
+            <img src="./image.png" height="20" width="20" alt="">
+            <img src="./instagram.jpeg" height="20" width="20" alt="">
+            <img src="./twitter.jpeg" height="20" width="20" alt="">
+            <img src="./google.jpeg"  height="20" width="20">
+            <img src="./skype.jpeg"  height="20" width="20">
+        </div>  
             
         </div>
     </div>
