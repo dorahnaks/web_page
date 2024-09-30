@@ -45,7 +45,12 @@
             color: white;
             height: 10px;
             margin-left: 50px;
+            display: flex;
+            justify-content: flex-start;
 
+        }
+        .design{
+            flex: 1;
         }
         .new{
             background-color: orange;
@@ -59,10 +64,11 @@
             padding: 30px;
             border-radius: 10px;
             color: white;
-            width: 250px;
+            width: 200px;
             position: relative;
             position: absolute; right: 70px;
-            height: 250px;
+            height: 300px;
+            flex: 0 0 300px; 
         }
 
         .login h2 {
@@ -76,16 +82,6 @@
             margin-bottom: 10px;
             border: none;
             border-radius: 5px;
-        }
-
-        .login_button {
-            background-color: orange;
-            color: white;
-            border: none;
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
         }
         .log_in{
             color: orange;
@@ -120,7 +116,9 @@
         }
         .tina{
             height: 80px;
-            line-height: 1.5;
+            line-height: 2;
+            gap: 20px;
+
         }
         .line{
             box-shadow: 0 2px 0 gray;
@@ -131,7 +129,8 @@
             background-color: orange;
             border-radius: 8px;
             height: 35px;
-            width: 120px;
+            width: 220px;
+            font-weight: bold;
             
         }
         .images{
@@ -158,7 +157,7 @@
         </div>    
     </nav>
     <div class="part_two">
-        <div>
+        <div class="design">
             <h2 class="liz ">Web Design &</h2>
             <h1 class="D">Development</h1>
             <h2 class="liz">Course</h2>
@@ -174,7 +173,7 @@
             <button class="r">Login</button><br><br>
                 Don't have an account?<br> <br><a href="#">Sign up here</a><br><br>
             </div>
-        <div class="images">          
+            <div class="images">          
             <img src="./image.png" height="20" width="20" alt="">
             <img src="./instagram.jpeg" height="20" width="20" alt="">
             <img src="./twitter.jpeg" height="20" width="20" alt="">
